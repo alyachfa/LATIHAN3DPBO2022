@@ -8,9 +8,9 @@ public class main {
         //menghitung total harga
         totalHarga = cpu.getPrice() + memory.getPrice() + storage.getPrice();
 
-        PC computer = new PC(cpu, memory, storage, totalHarga);
+        PC laptop = new PC(cpu, memory, storage, totalHarga);
 
        //menampilkan keluaran
-        computer.printPC();
+        laptop.printPC();
     }
 }
