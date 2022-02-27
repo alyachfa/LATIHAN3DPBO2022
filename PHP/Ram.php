@@ -31,7 +31,7 @@ class Ram {
     // method
     function printRAM() {
         echo "Kapasitas RAM  : ". $this->getCapacity(). "<br/>";
-        echo "Harga RAM : Rp ". $this->getPrice(). ",-<br/>";
+        echo "Harga RAM : Rp ". $this->getPrice(). "<br/>";
     }
 }
 
