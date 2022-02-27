@@ -31,7 +31,7 @@ class Processor {
     // method
     function printProcessor() {
         echo "Nama Processor : ". $this->getName(). "<br/>";
-        echo "Harga Processor : Rp ". $this->getPrice(). ",-<br/>";
+        echo "Harga Processor : Rp ". $this->getPrice(). "<br/>";
     }
 }
 
